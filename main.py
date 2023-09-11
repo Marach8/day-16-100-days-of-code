@@ -9,7 +9,7 @@ while x != 0:
   ask = input('I love ___ to the moon. > ')
   print()
   if ask == 'you':
-    print(f'\033[32m!Weldone, You got the correct word with {y} trial(s) 🎉\033[0m')
+    print(f'\033[32m!Weldone, You got the correct word with {y} trial(s). 🎉\033[0m')
     break
   else:
     print('Nope, you did not get the right word, try again!')
